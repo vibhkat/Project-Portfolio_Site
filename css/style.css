@@ -1,46 +1,46 @@
-body{
-    font-family: 'Lato', sans-serif;
+body {
+    font-family: "Lato", sans-serif;
     color: #2d3c49;
     font-weight:300;
 }
 
-.row{
+.row {
     display: flex;
 }
 
-#line{
+#line {
     height: 5px;
     background-color:#7d97ad;
 }
 
-.text-thick{
+.text-thick {
     font-weight:bold;
 }
 
-.text-muted{
+.text-muted {
     padding-left: 1%;
     color: #7d97ad
 }
 
-.col-md-4{
+.col-md-4 {
     width: 33.33%;
 }
 
-.over-flow{
+.over-flow {
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
-.udacity-logo{
+.udacity-logo {
     margin-top: 20px;
     width: 70px;
 }
 
-.title-name{
+.title-name {
     font-size: 50px;
 }
 
-@media screen and (max-width: 100vw){
+@media screen and (max-width: 100vw) {
     .col-md-12{
         width: 100%;
     }
